@@ -213,3 +213,211 @@
 
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MapRank Solution – Research, Defense, AI, Mega Drive</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #0d0d0d;
+            color: #e6e6e6;
+            line-height: 1.6;
+        }
+
+        /* 6-IMAGE BANNER GRID */
+        .banner-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 across */
+            gap: 5px;
+            padding: 10px;
+            background: #000;
+        }
+
+        .banner-grid img {
+            width: 100%;
+            height: 200px; /* Fixed height for uniformity */
+            object-fit: cover;
+            cursor: pointer;
+            border: 1px solid #333;
+            transition: transform 0.3s ease;
+        }
+
+        .banner-grid img:hover {
+            transform: scale(1.02);
+            border-color: #60a5fa;
+        }
+
+        /* LIGHTBOX EFFECT (Full size on click) */
+        .lightbox {
+            display: none;
+            position: fixed;
+            z-index: 999;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.9);
+            justify-content: center;
+            align-items: center;
+        }
+
+        .lightbox:target {
+            display: flex;
+        }
+
+        .lightbox img {
+            max-width: 90%;
+            max-height: 90%;
+            border: 2px solid #fff;
+        }
+
+        .close-lightbox {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            color: white;
+            font-size: 40px;
+            text-decoration: none;
+        }
+
+        /* EXISTING SECTION STYLING */
+        .section {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 30px;
+            background: #1a1a1a;
+            border-radius: 10px;
+            border: 1px solid #333;
+            box-shadow: 0 0 12px rgba(0,0,0,0.4);
+        }
+
+        h2 { color: #60a5fa; margin-bottom: 10px; }
+        h3 { color: #93c5fd; margin-top: 20px; }
+        a { color: #38bdf8; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        .divider {
+            text-align: center;
+            margin: 40px auto;
+            max-width: 900px;
+            color: #aaa;
+        }
+
+        .divider hr {
+            border: none;
+            border-top: 1px solid #333;
+            margin-bottom: 10px;
+        }
+
+        .bottom-image {
+            display: block;
+            max-width: 260px;
+            width: 100%;
+            margin: 20px auto;
+            border-radius: 10px;
+            border: 1px solid #333;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            color: #777;
+            background: #111827;
+            border-top: 1px solid #333;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="banner-grid">
+    <a href="#img1"><img src="file_0000000025f0722f86c64bd128e7d488.png" alt="Pic 1"></a>
+    <a href="#img2"><img src="copilot_image_1767232558940 (1) (1).jpeg" alt="Pic 2"></a>
+    <a href="#img3"><img src="file_00000000069c722f9064786e34309cb3.png" alt="Pic 3"></a>
+    <a href="#img4"><img src="copilot_image_1771785841489.jpeg" alt="Pic 4"></a>
+    <a href="#img5"><img src="copilot_image_1771785841489.jpeg" alt="Pic 5"></a>
+    <a href="#img6"><img src="copilot_image_1771785826031.jpeg" alt="Pic 6"></a>
+</div>
+
+<div id="img1" class="lightbox"><a href="#" class="close-lightbox">&times;</a><img src="file_0000000025f0722f86c64bd128e7d488.png"></div>
+<div id="img2" class="lightbox"><a href="#" class="close-lightbox">&times;</a><img src="copilot_image_1767232558940 (1) (1).jpeg"></div>
+<div id="img3" class="lightbox"><a href="#" class="close-lightbox">&times;</a><img src="file_00000000069c722f9064786e34309cb3.png"></div>
+<div id="img4" class="lightbox"><a href="#" class="close-lightbox">&times;</a><img src="copilot_image_1771785841489.jpeg"></div>
+<div id="img5" class="lightbox"><a href="#" class="close-lightbox">&times;</a><img src="copilot_image_1771785841489.jpeg"></div>
+<div id="img6" class="lightbox"><a href="#" class="close-lightbox">&times;</a><img src="copilot_image_1771785826031.jpeg"></div>
+
+<div class="section">
+    <h2>All Web Links</h2>
+    <p><a href="https://geniusmensaeinstein-prog.github.io/link-2/">https://geniusmensaeinstein-prog.github.io/link-2/</a></p>
+</div>
+
+<div class="divider"><hr></div>
+
+<div class="section">
+    <h2>MEGA DRIVE LINKS</h2>
+    <p>1. Mega Drive = <br><a href="https://geniusmensaeinstein-prog.github.io/Mega-Drive-2/">https://geniusmensaeinstein-prog.github.io/Mega-Drive-2/</a></p>
+    <p>2. More about Mega Drive = <br><a href="https://geniusmensaeinstein-prog.github.io/Mega-Drive-/">https://geniusmensaeinstein-prog.github.io/Mega-Drive-/</a></p>
+    <p>3. SpaceX 12-18 Project Build = <br><a href="https://geniusmensaeinstein-prog.github.io/Mega-Drive-Space-X-/">https://geniusmensaeinstein-prog.github.io/Mega-Drive-Space-X-/</a></p>
+    <p>4. Mega Drive Parts List = <br><a href="https://geniusmensaeinstein-prog.github.io/Mega-Drive-parts-list/">https://geniusmensaeinstein-prog.github.io/Mega-Drive-parts-list/</a></p>
+    <p>5. Phone Link = <br><a href="https://geniusmensaeinstein-prog.github.io/Mega-Drive-3/">https://geniusmensaeinstein-prog.github.io/Mega-Drive-3/</a></p>
+</div>
+
+<div class="divider"><hr></div>
+
+<div class="section">
+    <h2>MORAL LATENCY TEST</h2>
+    <p>1. Complete Moral Latency RESULTS = <br><a href="https://geniusmensaeinstein-prog.github.io/420-MORAL-LATENCY-TEST-/">https://geniusmensaeinstein-prog.github.io/420-MORAL-LATENCY-TEST-/</a></p>
+    <p>2. Moral Latency Test = <br><a href="https://geniusmensaeinstein-prog.github.io/MORAL-LATENCY-TEST-1/">https://geniusmensaeinstein-prog.github.io/MORAL-LATENCY-TEST-1/</a></p>
+    <p>3. Real World Validation = <br><a href="https://geniusmensaeinstein-prog.github.io/Real-world-Validation/">https://geniusmensaeinstein-prog.github.io/Real-world-Validation/</a></p>
+    <p>4. How To Apply MLT To New Models = <br><a href="https://geniusmensaeinstein-prog.github.io/APPLY-MLT-TO-NEW-MODELS/">https://geniusmensaeinstein-prog.github.io/APPLY-MLT-TO-NEW-MODELS/</a></p>
+    <p>5. Planned Future Testing & Research Directions = <br><a href="https://geniusmensaeinstein-prog.github.io/RESEARCH-DIRECTIONS/">https://geniusmensaeinstein-prog.github.io/RESEARCH-DIRECTIONS/</a></p>
+    <p>6. Bisa Moral Latency Test = <br><a href="https://geniusmensaeinstein-prog.github.io/AI-Bias-Test-/">https://geniusmensaeinstein-prog.github.io/AI-Bias-Test-/</a></p>
+</div>
+
+<div class="divider"><hr></div>
+
+<div class="section">
+    <h2>DEFENSE CONTRACT COMPANY</h2>
+    <p><a href="https://geniusmensaeinstein-prog.github.io/AI-Games-Theory-Warfare-logistics/">https://geniusmensaeinstein-prog.github.io/AI-Games-Theory-Warfare-logistics/</a></p>
+</div>
+
+<div class="divider"><hr></div>
+
+<div class="section">
+    <h2>MAPRANK SOLUTIONS</h2>
+    <p>Associated Connection Company: <br><a href="https://mapranksolution-sketch.github.io/mapranksolution-gmail.com-/">https://mapranksolution-sketch.github.io/mapranksolution-gmail.com-/</a></p>
+</div>
+
+<div class="divider"><hr></div>
+
+<div class="section">
+    <h2>Contact Information — MapRank Solution</h2>
+    <img src="file_0000000098f471f8a177da6bd425c153 (1) (1) (1).png" class="bottom-image" alt="MapRank Contact">
+    <p>Email: mapranksolution@gmail.com</p>
+    <p>Email: mapranksolution@outlook.com</p>
+</div>
+
+<div class="divider"><hr></div>
+
+<div class="section">
+    <h2>Contact Information — U.S.A Private Defense Company</h2>
+    <img src="copilot_image_1767232558940 (1) (1).jpeg" class="bottom-image" alt="Defense Company">
+    <p>Email: darknetphilosopher@gmail.com</p>
+    <p>Email: genius.mensa.einstein@gmail.com</p>
+</div>
+
+<footer>
+    © 2026 — Research • Defense • AI • Mega Drive • MapRank Solution
+</footer>
+
+</body>
+</html>
+
